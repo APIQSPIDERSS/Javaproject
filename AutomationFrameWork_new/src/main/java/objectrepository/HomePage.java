@@ -13,7 +13,7 @@ public class HomePage {
 	private WebElement booksLink;
 	
 	@FindBy(partialLinkText = "COMPUTERS")
-	private WebElement coputersLink;
+	private WebElement computersLink;
 	
 	public  HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -29,7 +29,7 @@ public class HomePage {
 	}
 
 	public WebElement getCoputersLink() {
-		return coputersLink;
+		return computersLink;
 	}
 	
 }
